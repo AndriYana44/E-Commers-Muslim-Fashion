@@ -1,0 +1,38 @@
+.nav {
+	position: fixed;
+	display: flex;
+	width: 230px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #00963d;
+}
+
+.nav ul li {
+	list-style: none;
+	padding: 20px 20px;
+}
+
+.nav ul li:nth-child(8) a {
+	position: absolute;
+	color: red;
+	margin-top: 120px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #eee;
+	transition: .3s;
+}
+
+.nav ul li a:hover {
+	color: #fff;
+	margin-left: 5px;
+}
+
+.nav ul li:nth-child(8) a:hover {
+	color: red;
+	margin-left: 20px;
+}
