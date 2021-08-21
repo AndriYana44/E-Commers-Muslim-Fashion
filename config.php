@@ -1,9 +1,9 @@
 <?php  
 
 $host = 'localhost';
-$user = 'root';
-$pass = '';
-$db_name = 'pl';
+$user = 'user';
+$pass = 'user';
+$db_name = 'e-commerce';
 
 $conn = mysqli_connect($host, $user, $pass, $db_name);
 
