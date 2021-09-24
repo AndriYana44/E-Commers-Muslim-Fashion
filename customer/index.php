@@ -173,7 +173,7 @@ if(empty($_SESSION['statusCustomer'])) {
 						</a>
 					</div>
 					<div class="cn2 col-sm-4 text-center">
-						<a href="cara_belanja.php">
+						<a href="./cara_belanja.php">
 							<i class="fa fa-shopping-cart fa-2x"></i><br>
 							<span>Cara Belanja</span>
 							<p>Tata cara untuk pembelian dan pembayaran</p>
